@@ -1,0 +1,94 @@
+section {
+	width: 100vw;
+	height: 100vh;
+	
+	padding: 50px;
+}
+
+.cl_white {
+	color: white;
+}
+
+.icon {
+	width: 32px;
+	height: 32px;
+}
+
+body {
+	background-image: url(../image/header2.png);
+	background-attachment: fixed;
+}
+
+bio_text {
+	padding: 30%;
+	width: 60vw;
+	text-align: justify;
+}
+
+logo {
+	width: 400px;
+	height: 100px;
+}
+
+a {
+	color: white;
+}
+
+p.img__description {
+	font-weight: bold;
+	color: white;
+}
+
+img {
+	width: 300px;
+	
+	transition: opacity 0.4s ease-in-out;
+}
+
+img:hover {
+	opacity: 0.3;
+}
+
+img.logo {
+	width: 400px;
+	height: 100px;
+	opacity: 1;
+}
+
+img.logo:hover {
+	opacity: 1;
+}
+
+.img__wrap {
+	position: relative;
+}
+
+.img__description {
+	position: absolute;
+	visibility: hidden;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	padding: 10%;
+	
+	opacity: 0;
+	
+	transition: opacity 0.6s ease-in-out;
+}
+
+.img__wrap:hover img {
+	opacity: 0.3;
+}
+
+.img__wrap:hover .img__description {
+	visibility: visible;
+	opacity: 1;
+}
+
+.contact {
+	padding-left: 25%;
+	padding-right: 25%;
+}
